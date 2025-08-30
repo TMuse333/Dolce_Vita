@@ -60,10 +60,13 @@ const Booking: React.FC = () => {
         <div className='hidden md:block md:w-[50vw] max-w-[650px] ml-auto bg-black pt-3 pb-3 bg-opacity-70 rounded-3xl'>
           <h1 className='bg-gradient-to-b from-gold-light to-gold-dark bg-clip-text text-transparent font-dancing-script text-4xl mb-4 text-center'>Dolce Vita
           Construction</h1>
+           <p className='text-white'>You can also reach out by email at 902-333-7374
+          or email us at dolcevitaconstructionhfx@gmail.com</p>
           <img src={house} className='w-[50vw] object-cover' />
           <p className='mt-4 text-3xl text-center text-white'>The best construction and consulting in halifax</p>
         </div>
         <div className='text-center ml-auto mr-auto md:w-[50vw] max-w-[400px]'>
+         
           {submitted ? ( // Conditional rendering based on the submitted state
             <div>
               <h2 className='text-black text-2xl mt-5 pl-3 pr-3'>Form Submitted Successfully!</h2>
@@ -78,6 +81,7 @@ const Booking: React.FC = () => {
               
                 <div className='mt-0 flex flex-col justify-center items-center bg-opacity-100 pt-6 pb-6 rounded-3xl'>
                 <form onSubmit={sendEmail} ref={form}>
+                  
   <div className='mt-8 flex flex-col justify-center items-center bg-opacity-100 pt-6 pb-6 rounded-3xl'>
     <input
       className='border border-gold-light bg-black rounded-xl text-white focus:placeholder-gray-300 p-2 mb-3 w-[80vw] max-w-[400px]'
