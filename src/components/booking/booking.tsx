@@ -60,7 +60,7 @@ const Booking: React.FC = () => {
         <div className='hidden md:block md:w-[50vw] max-w-[650px] ml-auto bg-black pt-3 pb-3 bg-opacity-70 rounded-3xl'>
           <h1 className='bg-gradient-to-b from-gold-light to-gold-dark bg-clip-text text-transparent font-dancing-script text-4xl mb-4 text-center'>Dolce Vita
           Construction</h1>
-           <p className='text-white'>You can also reach out by email at 902-333-7374
+           <p className='text-white text-center'>You can also reach out by email at 902-333-7374
           or email us at dolcevitaconstructionhfx@gmail.com</p>
           <img src={house} className='w-[50vw] object-cover' />
           <p className='mt-4 text-3xl text-center text-white'>The best construction and consulting in halifax</p>
