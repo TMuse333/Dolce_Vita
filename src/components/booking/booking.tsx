@@ -78,7 +78,7 @@ const Booking: React.FC = () => {
                 ">Dolce Vita</h1>
               <h2 className='text-2xl mt-5 pl-3 pr-3 bg-gradient-to-b from-gold-light to-gold-dark bg-clip-text text-transparent'>You have made an excellent choice</h2>
               <p className='w-4/5 ml-auto mr-auto bg-gradient-to-b from-gold-light to-gold-dark bg-clip-text text-transparent mt-4'>Let's get in contact so we can work together</p>
-                <p className='text-white text-center'>You can also reach out by email at 902-333-7374
+                <p className='bg-gradient-to-b from-gold-light to-gold-dark bg-clip-text text-transparent text-center'>You can also reach out by email at 902-333-7374
           or email us at dolcevitaconstructionhfx@gmail.com</p>
               
                 <div className='mt-0 flex flex-col justify-center items-center bg-opacity-100 pt-6 pb-6 rounded-3xl'>
